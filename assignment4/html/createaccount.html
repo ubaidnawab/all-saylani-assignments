@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="css/accountStyle.css">
+    <script src="../js/script.js"></script> 
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid top-header">
+          <div class="row top-heade-row">
+            <div class="top-header-content top-header-left-content">
+            <span class="select-lang-curn"> <a href=""><i class=" fas fa-globe"></i> ENGLISH</a>
+                <ul class="language">
+                    <li>URDU</li>
+                    <li>ARABIC</li>
+                    <li>GERMAN</li>
+                </ul>
+            </span >
+            <span class="select-lang-curn"> <a href=""> &#36; USD</a>
+                <ul class="currency">
+                <li>EURO</li>
+                <li>PKR</li>
+                <li>INR</li>
+            </ul>
+        </span>
+        </div>
+        <div class="top-header-content top-header-right-content">
+            <span> <a href=""> <i class=" far fa-heart"></i> WISHLIST </a> </span>
+            <span> <a href=""> <i class=" fas fa-sync"></i> COMPARE </a>  </span>
+            <span> <a href=""> <i class=" far fa-user-circle"></i> CREATE AN ACCOUNT </a> </span>
+            <span href="" id="signin" onclick="singIn()">SIGN IN <i class="fas fa-angle-down drop-ang"></i></span>
+            <div class="login-form-container hide" id="loginPopForm" style="display: none;">
+              <form action="">
+                <input type="email" name="" id="" placeholder="Enter Email">
+                <input type="password" name="" id="" placeholder="Enter Password"> 
+                <button>Login</button>
+                <a href="">FORGOT YOUR PASSWORD?</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container logo-and-card-icon">
+          
+          <div class="row logo-cart">
+            <div class="toggel-container ">
+              <button id="toggel" class="toggel">
+                <li class="fa fa-bars fa-2x"></li>
+                </button>
+            </div>
+            <div class="logo-container">
+            <a href="">
+                <img src="../images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="cart-container">
+            <span><i class="fas fa-shopping-cart"></i> My Cart</span>
+            <!-- <i class="fas fa-shopping-basket"></i> -->
+        </div>
+        </div>
+      </div>
+     
+      
+        <nav class="navBar">
+          <div class="container">
+            <ul class="nav-ul nav-ul-mob">
+                <li class="navItem">
+                    <a class="navLink" href="#">SALES</a>
+                  </li>
+                <li class="navItem active">
+                  <a class="navLink" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="navItem">
+                  <a class="navLink" href="#">TOP</a>
+                </li>
+                <li class="navItem">
+                  <a class="navLink" href="#">BOTTOM</a>
+                </li>
+                <li class="navItem">
+                    <a class="navLink" href="#">ACCESSORIES</a>
+                  </li>
+              <li class="navItem">
+                <a class="navLink" href="#">HEADPHONES</a>
+              </li>
+              <li class="navItem">
+                <a class="navLink" href="#">HEADPHONES</a>
+              </li>
+          </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                
+                <input class="form-control search-box" type="search" placeholder="Search" aria-label="Search"><i class="fas fa-search search-icon"></i> </input>
+              </form> -->
+            </div>
+        </nav>
+    <div class="col-lg-12  head-slider create-acc-head-slider">
+      <h1>CREATE NEW CUSTOMER ACCOUNT</h1>
+      <p>Creating an account is easy. Just fill in the form below.</p>
+      <!-- <a href="">CLICK</a> -->
+    </div>
+    </header>
+
+
+    <section class="signup_section">
+        <div class="container">
+            <div class="row formRow">
+                <form action="">
+                    <div class="col-lg-6 form_element">
+                    <label for="">PERSONAL INFORMATION</label>
+                    </div>
+                    <div class="col-lg-6 form_element">
+                        <input type="text" name="" id="" placeholder="Enter First Name">
+                    </div>    
+                    <div class="col-lg-6 form_element">
+                        <input type="text" name="" id="" placeholder="Enter Last Name">
+                    </div>    
+                    <div class="col-lg-6 form_element">
+                        <input type="email" name="" id="" placeholder="Enter Email">
+                    </div>
+                    <div class="col-lg-6 form_element">
+                        <label for="">SIGN-IN INFORMATION</label>
+                        </div>    
+                    <div class="col-lg-6 form_element">
+                        <input type="password" name="" id="" placeholder="Enter Password">
+                    </div>    
+                    <div class="col-lg-6 form_element">
+                        <input type="password" name="" id="" placeholder="Enter confirmation Password">
+                    </div>   
+                </form>
+                <div class="col-lg-6 SbtButton">
+                    <button>CREATE AN ACCOUNT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- footer  -->
+        <footer>
+            <div class="container-fulid subscribe">
+              <div class="row">
+                <div class="col-md-10 col-lg-10">
+              <h3>SUBSCRIBE NOW</h3>
+            </div>
+            <div class="col-md-10 col-lg-10">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, hic.</p>
+          </div>
+            <div class="col-md-10 col-lg-10">
+              <form action="">
+                <input type="text" name="" id="" placeholder="Enter Your Email Address"><button>Submit</button>
+              </form>
+            </div>
+            </div>
+            </div>
+            <div class="footer-main-container">
+            <div class="container">
+              <div class="row footer-row">
+                <div class="col-md-3 col-lg-3 footer-headings">
+                  <div class="footer-logo">
+                    <img src="images/logo.png" alt="">
+                  </div>
+                    <div class="social-icon">
+                      <a class="social-icon-anchor" href="https://www.facebook.com/UbaidSheikh91"><li class="fab fa-facebook-f"></li></a>
+                      <a class="social-icon-anchor" href=""><li class="fab fa-twitter"></li></a>
+                      <a class="social-icon-anchor" href=""><li class="fab fa-instagram"></li></a>
+                      <a class="social-icon-anchor" href=""><li class="fab fa-youtube"></li></a>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3 my-account-div footer-headings">
+                  <h3>MY ACCOUNT</h3>
+                  <a href="" class="footer-links">Login</a>
+                  <a href="" class="footer-links">Order History</a>
+                  <a href="" class="footer-links">Order Status</a>
+                </div>
+                <div class="col-md-3 col-lg-3 about-guzail-div footer-headings">
+                  <h3>ABOUT GUZAIL</h3>
+                  <a href="" class="footer-links">About</a>
+                  <a href="" class="footer-links">Privacy</a>
+                  <a href="" class="footer-links">Contact Us</a>
+                </div>
+                <div class="col-md-3 col-lg-3 about-guzail-div footer-headings useful-links">
+                  <h3>USEFUL LINKS</h3>
+                    <ul>
+                  <li><a href="" class="footer-links">Jecket</a> </li>
+                  <li><a href="" class="footer-links">T-Shirts</a> </li>
+                  <li><a href="" class="footer-links">Shose</a> </li>
+                  <li><a href="" class="footer-links">Glasses</a> </li>
+                  <li><a href="" class="footer-links">Headphones</a> </li>
+                  <li><a href="" class="footer-links">Tie</a> </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="copy-right">
+              <p>Copyright © 2020 Guzail.com All rights reserved.</p>
+            </div>
+          
+          </footer>
+      </body>
+      
+      </html>

@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: rgb(88, 94, 177);
+    color: #fff;
+}
+header h1{
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.main-content-container{
+    padding-bottom:50px ;
+}
+.side-bar{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(142, 148, 230);
+    width: 300px;
+}
+.side-bar img{
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(192, 192, 192, 0.1);
+    border: 5px solid #fff;
+    border-radius: 100%;
+}
+.side-bar h3{
+    padding-top: 5px;
+    font-weight: 600;
+    color:#fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.social-icon{
+    width: 300px;
+    display: flex;
+    padding:0px 25px;
+    justify-content:space-evenly;
+}
+.social-icon-anchor{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+.main-content{
+    text-align: center;
+    color: rgb(88, 94, 177);
+    /* height: 100vh; */
+    background-color: rgb(224, 224, 224);
+}
+.main-content p{
+    color: rgb(63, 63, 63);
+}
+.main-content > h3{
+    margin-top:20px;
+    font-weight: 600;
+}
+.Assignments{
+    display: flex;
+    justify-content: center;
+}
+.Assignments div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width:340px !important;
+    border: 2px solid rgb(142, 148, 230);
+    border-radius: 10px;
+    margin:10px;
+    padding-bottom:15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.Assignments div:hover{
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.1);
+
+}
+.Assignments img{
+    width:340px;
+
+}
+.Assignments div h3{
+    margin:0px;
+    padding: 0px;
+}
+.Assignments a{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.Assignments div h3,img,a{
+    padding: 15px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    /* top:0px; */
+    width: 100%;
+    margin-top:20px ;
+    bottom:0px ;
+    background-color: rgb(88, 94, 177);
+    border-top: 2px solid #fff;
+}
+footer p{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    color:#fff;
+}
