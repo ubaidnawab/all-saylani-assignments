@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create an Account</title>
+    <title>About</title>
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/fontawesome.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css"> 
-    <link rel="stylesheet" href="css/accountStyle.css">
+    <link rel="stylesheet" href="css/salestyle.css">
+    <link rel="stylesheet" href="css/aboutstyle.css">
     <script src="../js/script.js"></script> 
 </head>
 
@@ -36,7 +37,7 @@
         <div class="top-header-content top-header-right-content">
             <span> <a href=""> <i class=" far fa-heart"></i> WISHLIST </a> </span>
             <span> <a href=""> <i class=" fas fa-sync"></i> COMPARE </a>  </span>
-            <span> <a href=""> <i class=" far fa-user-circle"></i> CREATE AN ACCOUNT </a> </span>
+            <span> <a href="createaccount.html"> <i class=" far fa-user-circle"></i> CREATE AN ACCOUNT </a> </span>
             <span href="" id="signin" onclick="singIn()">SIGN IN <i class="fas fa-angle-down drop-ang"></i></span>
             <div class="login-form-container hide" id="loginPopForm" style="display: none;">
               <form action="">
@@ -80,19 +81,19 @@
                   <a class="navLink" href="../index.html">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="navItem">
-                  <a class="navLink" href="#">TOP</a>
+                  <a class="navLink" href="top.html">TOP</a>
                 </li>
                 <li class="navItem">
-                  <a class="navLink" href="#">BOTTOM</a>
+                  <a class="navLink" href="bottom.html">BOTTOM</a>
                 </li>
                 <li class="navItem">
-                    <a class="navLink" href="#">ACCESSORIES</a>
+                    <a class="navLink" href="accessories.html">ACCESSORIES</a>
                   </li>
               <li class="navItem">
-                <a class="navLink" href="#">HEADPHONES</a>
+                <a class="navLink" href="headphone.html">HEADPHONES</a>
               </li>
               <li class="navItem">
-                <a class="navLink" href="#">HEADPHONES</a>
+                <a class="navLink" href="about.html">ABOUT</a>
               </li>
           </ul>
               <!-- <form class="form-inline my-2 my-lg-0">
@@ -101,49 +102,31 @@
               </form> -->
             </div>
         </nav>
-    <div class="col-lg-12  head-slider create-acc-head-slider">
-      <h1>CREATE NEW CUSTOMER ACCOUNT</h1>
-      <p>Creating an account is easy. Just fill in the form below.</p>
+    <div class="col-lg-12  head-slider sale-head-slider">
+      <h1>ABOUT GUZAIL </h1>
       <!-- <a href="">CLICK</a> -->
     </div>
     </header>
 
 
-    <section class="signup_section">
-        <div class="container ">
-            <div class="row formRow">
-              <div class="create-heading"><h5>CREATE YOUR USER ACCOUNT</h5></div>
-              <div class="col-12 col-md-12 col-lg-6">
-                <form action="">
-                    <div class="col-lg-12  form_element">
-                    <label for="">PERSONAL INFORMATION</label>
-                    </div>
-                    <div class="col-lg-12  form_element">
-                        <input type="text" name="" id="" placeholder="Enter First Name">
-                    </div>    
-                    <div class="col-lg-12 form_element">
-                        <input type="text" name="" id="" placeholder="Enter Last Name">
-                    </div>    
-                    <div class="col-lg-12 form_element">
-                        <input type="email" name="" id="" placeholder="Enter Email">
-                    </div>
-                    <div class="col-lg-12 form_element">
-                        <label for="">SIGN-IN INFORMATION</label>
-                        </div>    
-                    <div class="col-lg-12 form_element">
-                        <input type="password" name="" id="" placeholder="Enter Password">
-                    </div>    
-                    <div class="col-lg-12 form_element">
-                        <input type="password" name="" id="" placeholder="Enter confirmation Password">
-                    </div>   
-                </form>
-              </div>
-                <div class="col-lg-6 SbtButton">
-                    <button>CREATE AN ACCOUNT</button>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="about-section">
+      <div class="container about-contrainer "> 
+        <div class="row">
+        <div class="col-12 col-md-12 col-lg-4 about-element">
+          <i class="far fa-address-card about-icons"></i>
+          <h3>ABOUT US</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut suscipit facilis animi, et ut minus odit accusantium repellat nam est dolores tempora delectus laboriosam nulla placeat temporibus labore unde beatae. Minima, alias facere quibusdam.</p></div>
+        <div class="col-12 col-md-12 col-lg-4 about-element">
+          <i class="fas fa-cogs about-icons"></i>
+          <h3>WHO WE ARE</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut suscipit facilis animi, et ut minus odit accusantium repellat nam est dolores tempora delectus laboriosam nulla placeat temporibus labore unde beatae. Minima, alias facere quibusdam.</p></div>
+        <div class="col-12 col-md-12 col-lg-4 about-element">
+          <i class="far fa-lightbulb about-icons"></i>
+          <h3>WHAT WE DO</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut suscipit facilis animi, et ut minus odit accusantium repellat nam est dolores tempora delectus laboriosam nulla placeat temporibus labore unde beatae. Minima, alias facere quibusdam.</p></div>
+      </div>
+      </div>  
+      </section>
 
         <!-- footer  -->
         <footer>
@@ -167,7 +150,7 @@
               <div class="row footer-row">
                 <div class="col-md-3 col-lg-3 footer-headings">
                   <div class="footer-logo">
-                    <img src="images/logo.png" alt="">
+                    <img src="../images/logo.png" alt="">
                   </div>
                     <div class="social-icon">
                       <a class="social-icon-anchor" href="https://www.facebook.com/UbaidSheikh91"><li class="fab fa-facebook-f"></li></a>
@@ -178,9 +161,9 @@
                 </div>
                 <div class="col-md-3 col-lg-3 my-account-div footer-headings">
                   <h3>MY ACCOUNT</h3>
-                  <a href="login.html" class="footer-links">Login</a>
-                  <a href="login.html" class="footer-links">Order History</a>
-                  <a href="login.html" class="footer-links">Order Status</a>
+                  <a href="" class="footer-links">Login</a>
+                  <a href="" class="footer-links">Order History</a>
+                  <a href="" class="footer-links">Order Status</a>
                 </div>
                 <div class="col-md-3 col-lg-3 about-guzail-div footer-headings">
                   <h3>ABOUT GUZAIL</h3>

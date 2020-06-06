@@ -37,7 +37,17 @@
 //     console.log("working");
 // })
 //  var singInId = document.getElementById("signin");
+const toggelBtn = document.getElementById('toggel');
+
+toggelBtn.addEventListener('click', function(){
+    document.body.classList.toggle('sho-nav');
+
+    // const TogBtn = document.getElementById('toggel');
+    // document.TogBtn.classList.toggle("toggel ToggleButton");
+});
+
     
+
   function singIn(){
     var loginPopForm = document.getElementById("loginPopForm");
     if (loginPopForm.style.display === "none") {
