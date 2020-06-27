@@ -1,0 +1,27 @@
+
+body{
+    margin:0px;
+}
+header{
+    background-color: rgb(110, 66, 212);
+    padding: 65px;
+    text-align: center;
+}
+header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #fff;
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.color-box{
+    margin: 10px;
+    width:33%;
+    height: 180px;
+    background-color: rgb(110, 66, 212);
+}
