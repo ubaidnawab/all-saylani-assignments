@@ -4,12 +4,16 @@ function getNum(num) {
     output.value += num;
 }
 
-
+var historyResultArr = [];
 function equal() {
             var output = document.getElementById("output");
+            var historyEnteredArr = [];
+            historyEnteredArr.push = output.value;
+            console.log(historyEnteredArr[0]);
             var result = eval(output.value);
             output.value = '';
             output.value = result
+
         }
 window.addEventListener('keypress', function (e) {
     if (e.keyCode === 13) {
